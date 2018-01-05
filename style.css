@@ -1,0 +1,289 @@
+*{
+	margin:0;
+	padding:0;
+}
+.row
+{
+	max-width:1140px;
+    margin:0 auto;	
+}
+body
+{
+	font-family:tahoma;
+}
+.hero
+{
+	position:absolute;
+	width:1140px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/food5.jpg");
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+h1
+{
+	color:white;
+	font-weight:bold;
+	margin-left:10%;
+	
+}
+
+.main-nav
+{
+	margin-top:50px;
+	list-style:none;
+	text-align:right;
+	
+}
+
+.main-nav li
+{   
+	display:inline-block;
+	margin-left:20px;
+}
+
+.main-nav li a
+{
+	color:white;
+	text-decoration:none;
+	font-size:90%;
+	font-weight:bold;
+	
+}
+
+.main-nav li a:hover
+{
+	color:#e67e22;
+	border-bottom:2px solid #e67e22;
+	transition:all 0.3s ease-in;
+	padding:3px 0;
+}
+
+.logo img
+{
+	height:80px;
+	float:left;
+	margin-top:10px;
+	padding-right:350px;
+}	
+
+.btn
+{
+	border:2px solid black;
+	padding:5px 10px;
+	text-decoration:none;
+	color:white;
+	border-radius:20px;
+	margin-right:-50px;
+	margin-left:100px;
+	
+	
+}
+
+.btn-awesome
+{
+	margin-top:20px;
+}
+
+.btn-half:hover
+{
+	color:white;
+	background-color:black;
+}
+
+
+.col-md-3 i{
+	font-size:40px;
+	color:#e67e22;
+	margin-top:10px;
+	margin-left:55px;
+}
+
+.col-md-3 h4
+{
+	font-size:20px;
+	margin-left:30px;
+}
+
+.btn-full:hover
+{
+	color:white;
+	background-color:black;
+}
+
+.food{
+	font-weight:bold;
+	margin-top:5%;
+	text-align:center;
+}
+.food:after
+{
+	width:10%;
+	height:2px;
+	background-color:orange;
+	display:block;
+	content:"";
+	margin:3% auto;
+	
+	
+}
+.copy
+{    
+     width:70%;
+	 margin-left:15%;
+	 margin-top:5%;
+	 margin-right:15%;
+	 margin-bottom:5%;
+	font-size:20px;
+	font-family:tahoma;
+	color:red;
+}
+
+.p1,.p2,.p3,.p4
+{
+	color:black;
+	font-size:15px;
+	font-family:tahoma;
+	
+}
+
+.fa
+{
+	width:40px;
+	height:50px;
+}
+
+.fa-envelope
+{
+	width:30%;
+}
+.meal-list
+{
+	list-style:none;
+	width:100%;
+}
+
+.meal-list li
+{
+	display:block;
+	width:50%;
+	float:left;
+}
+.meal-photo
+{
+	width:110%;
+	margin:0;
+	overflow:hidden;
+}
+
+.meal-photo img
+{
+	width:90%;
+	height:50%;
+}
+	
+	
+
+.meal-photo img
+{
+	transform:scale(1.25);
+	transition:all 0.5s;
+}
+.meal-list img:hover
+{
+	transform:scale(1.05);
+	
+}
+
+.ft
+{
+	background-color:black;
+
+	margin-top:30px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:80px;
+	margin-right:-8%;
+}	
+
+.nutrition
+{    
+     width:70%;
+	 margin-left:15%;
+	 margin-top:5%;
+	 margin-right:5%;
+	 margin-bottom:5%;
+	font-size:20px;
+	font-family:tahoma;
+	color:red;
+}
+
+#outerbox
+{ 
+	width:1450px;
+	overflow:hidden;
+}
+
+#sliderbox
+{   
+	position:relative;
+	
+	width:5800px;
+	animation:healthyfood 20s infinite;
+	
+}
+
+#sliderbox img
+{
+	float:left;
+}
+
+@keyframes healthyfood
+{
+	0%
+	{   margin:auto;
+		left:0px;
+	}
+	
+	20%
+	{ 
+	   left:0px;
+	}
+	
+	25%
+	{ 
+		left:-1450px;
+	}
+
+	45%
+	{ 
+		left:-1450px;
+	}
+	50%
+	{ 
+		left:-2900px;
+	}
+	70%
+	{ 
+		left:-2900px;
+	}
+	75%
+	{ 
+		left:-4350px;
+	}
+	95%
+	{ 
+		left:-4350px;
+	}
+	100%
+	{ 
+		left:-5800px;
+	}
+}
